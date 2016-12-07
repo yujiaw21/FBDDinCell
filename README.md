@@ -1,5 +1,3 @@
-# FBDDinCells
-
 # Annotations for each scripts
 
 * `mapping_drugbank.R`: mapping probe targets in [Drugbank](https://www.drugbank.ca/) database
