@@ -2,13 +2,13 @@
 
 ## Raw data processing and filtering
 
-* `filter_probe_vs_probe.R`: ensure every protein is a target for at least one of the two probes
+* `filter_probe_vs_probe.R`: ensure every entry is a target for at least one of the two probes
 
-* `filter_20uM_competition.R`: ensure every protein is enriched by corresponding probe with SILAC ratio greater than 5
+* `filter_20uM_competition.R`: ensure every entry is enriched by corresponding probe with SILAC ratio greater than 5
 
-* `filter_200uM_competition.R`: ensure every protein is enriched by corresponding probe with SILAC ratio greater than 5
+* `filter_200uM_competition.R`: ensure every entry is enriched by corresponding probe with SILAC ratio greater than 5
 
-* `filter_competed.R`: ensure every protein is competed (SILAC ratio greater than 3) by at least one of tested competitors
+* `filter_competed.R`: ensure every entry is competed (SILAC ratio greater than 3) by at least one of tested competitors
 
 * `filter_miscleavaged_peptide.R`: remove miscleavaged tryptic peptide in isoTOP-ABPP 
 
